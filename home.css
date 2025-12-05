@@ -1,0 +1,249 @@
+/* General spacing */
+section {
+    margin: 20px 0;
+}
+
+/* Remove red border – debugging ki use chesav */
+body {
+    overflow-x: hidden;
+    /* IMPORTANT: remove left-right scroll */
+}
+
+/* hero-section */
+
+/* service-section */
+.service-box {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.service-box img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+/* about-section */
+.about-para {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-btn {
+    background-color: #e5c400;
+    padding: 12px 30px;
+    border: none;
+    letter-spacing: 2px;
+}
+
+/* popular-service-sections */
+.services-section {
+    background-image: url('images/services_bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+}
+
+.card h4 {
+    color: #ffb400;
+}
+
+
+
+
+/* footer */
+
+
+
+
+/* about-section */
+
+.about-section {
+    padding: 80px 0;
+    background: #f2f2f2;
+}
+
+.yellow-box {
+    background: #e5c400;
+    margin-top: 1px;
+    height: 80%;
+    width: 70%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.image-wrapper {
+    position: relative;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
+    border-radius: 1px;
+}
+
+/* footer */
+footer {
+    overflow-x: hidden;
+}
+
+.contact-us {
+    background: #111;
+    padding: 120px 0;
+    position: relative;
+}
+
+/* ---------- Desktop yellow card (Overlap style) ----------- */
+.yellow-card {
+    background: #E6C200;
+    padding: 50px;
+    width: 350px;
+    position: absolute;
+    left: 120px;
+    top: 140px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.yellow-card h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.yellow-location,
+.yellow-time {
+    margin-top: 25px;
+    font-weight: 700;
+}
+
+/* ---------- White Form ---------- */
+.white-form {
+    background: white;
+    padding: 60px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.form-data {
+    border: none;
+    border-bottom: 2px solid #000;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.form-btn {
+    padding: 12px 40px;
+    background: black;
+    color: white;
+    border: 2px solid black;
+}
+
+
+
+@media (max-width: 1400px) {
+    .yellow-card {
+        padding: 20px;
+        /* position: absolute; */
+        left: 70px;
+        top: 155px;
+
+    }
+
+    .white-form {
+        width: 100%;
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .yellow-card {
+        padding: 15px;
+        /* position: absolute; */
+        left: 10px;
+        top: 160px;
+
+    }
+
+    .yellow-card h4 {
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    .yellow-location,
+    .yellow-time {
+        margin-top: 15px;
+        font-weight: 500;
+    }
+
+    .white-form {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .form-data {
+        /* border: none; */
+        /* border-bottom: 2px solid #000; */
+        width: 100%;
+        padding: 7px;
+        margin-bottom: 20px;
+    }
+
+    .form-btn {
+        padding: 7px 10px;
+    }
+
+
+}
+
+@media (max-width: 992px) {
+
+    .contact-us {
+        padding: 40px 0;
+    }
+
+    .yellow-card {
+        position: static !important;
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+        left: auto !important;
+        top: auto !important;
+        margin-left: 12px;
+        padding: 10px;
+        ;
+    }
+
+    .white-form {
+        width: 158%;
+        max-width: 200%;
+
+    }
+
+    .contact-us .row {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .form-data {
+
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .white-form {
+        width: 105%;
+        max-width: 200%;
+
+    }
+}
