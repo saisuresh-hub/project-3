@@ -90,9 +90,9 @@ body {
 }
 
 /* footer */
-footer {
+/* footer {
     overflow-x: hidden;
-}
+} */
 
 .contact-us {
     background: #111;
@@ -246,4 +246,10 @@ footer {
         max-width: 200%;
 
     }
+}
+
+.shafi {
+    position: relative;
+
+
 }
